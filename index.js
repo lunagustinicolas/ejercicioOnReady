@@ -1,5 +1,6 @@
 console.log("Ejercicio OnReady:");
 console.log("------------------")
+//declaro una super clase con atributos y metodos comunes entre autos y motos:
 class Vehiculo {
     constructor(_marca, _modelo, _precio){
         this.marca = _marca;
@@ -143,8 +144,11 @@ function ordernamiento(lista){
         console.log(vehicles[i].getMarca(), vehicles[i].getModelo());
     }
 }
+//funcion que imprime por consola el maximo
 maximo(vehicles);
+//funcion que imprime por consola el minimo
 minimo(vehicles);
+//funcion que imprime marca que contiene la letra 'Y'
 letra(vehicles);
 
 
@@ -152,6 +156,7 @@ console.log("=============================");
 console.log("----------------");
 console.log("EXTRA");
 console.log("----------------");
+// ordenamiento
 ordernamiento(vehicles);
 
 
